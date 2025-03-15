@@ -1,12 +1,12 @@
 annotated-types==0.7.0
 anyio==4.8.0
 bcrypt==4.3.0
-certifi>=2023.5.0
+certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
 click==8.1.8
 colorama==0.4.6
-cryptography>=40.0.0
+cryptography==44.0.2
 distro==1.9.0
 dnspython==2.7.0
 ecdsa==0.19.1
@@ -29,7 +29,7 @@ requests==2.32.3
 rsa==4.9
 six==1.17.0
 sniffio==1.3.1
-starlette==0.46.1
+starlette==0.37.2  # Compatible with fastapi==0.115.11
 tqdm==4.67.1
 typing_extensions==4.12.2
 urllib3==2.3.0
